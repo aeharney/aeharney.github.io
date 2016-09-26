@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="82" height="81" viewBox="0 0 82 81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a2325;
+      }
+
+      .cls-12, .cls-18, .cls-2, .cls-21, .cls-4, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 6px;
+      }
+
+      .cls-19, .cls-2, .cls-5 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 24px;
+      }
+
+      .cls-4 {
+        text-anchor: end;
+      }
+
+      .cls-12, .cls-4 {
+        font-family: "Quatro Slab";
+      }
+
+      .cls-5, .cls-9 {
+        fill: #01bfc1;
+      }
+
+      .cls-19, .cls-5 {
+        stroke: #4dd9da;
+        stroke-width: 1px;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-6, .cls-7 {
+        font-size: 14px;
+      }
+
+      .cls-7 {
+        font-family: "LFTEtica-SemiBold";
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .cls-10, .cls-8 {
+        font-size: 22px;
+      }
+
+      .cls-15, .cls-16, .cls-17, .cls-9 {
+        font-family: "LFT Etica";
+      }
+
+      .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-9 {
+        font-size: 16px;
+      }
+
+      .cls-10 {
+        font-family: "Arial";
+      }
+
+      .cls-11, .cls-12 {
+        font-size: 36px;
+      }
+
+      .cls-13 {
+        fill: #555a5b;
+        font-family: "LFTEtica-Book";
+      }
+
+      .cls-15, .cls-16 {
+        fill: #abadad;
+      }
+
+      .cls-17 {
+        fill: #7c7f80;
+      }
+
+      .cls-18 {
+        fill-opacity: 0.1;
+      }
+
+      .cls-18, .cls-21 {
+        fill-rule: evenodd;
+      }
+
+      .cls-19 {
+        fill: #01ccce;
+      }
+
+      .cls-20 {
+        fill: #f8695a;
+      }
+    </style>
+
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.236" result="dropBlur"/>
+      <feFlood flood-color="#1a2325" flood-opacity="0.7"/>
+      <feComposite operator="in" in2="dropBlur" result="dropShadowComp"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+    </filter>
+  </defs>
+  <rect x="-207" y="-80" width="1508" height="4350" class="cls-1"/>
+  <g>
+    <g>
+      <rect x="461" y="2220" width="640" height="600" class="cls-2"/>
+      <g>
+        <text x="-102" y="2682" class="cls-3"><tspan x="-102" class="cls-4">$10</tspan></text>
+        <g>
+          <g style="fill: #01bfc1; filter: url(#drop-shadow-1)">
+            <rect x="67" y="2670" width="121" height="42" id="rect-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-5"/>
+          </g>
+          <use xlink:href="#rect-1" style="stroke: #4dd9da; filter: none; fill: none"/>
+          <text x="96" y="2696" class="cls-6"><tspan class="cls-7">BUY This</tspan></text>
+        </g>
+        <text y="2597" class="cls-8"><tspan class="cls-8"><tspan class="cls-9">Check out how it was made  <tspan class="cls-10">→</tspan></tspan></tspan></text>
+        <text x="1" y="2221" class="cls-11"><tspan class="cls-12">Buy Film</tspan><tspan dy="0.375em" x="1" class="cls-13">4x4 Vinyl Stickers</tspan><tspan dy="1.2em" x="1" class="cls-14"><tspan class="cls-15">This is something I wrote to fill space, but would actually mean something very important to this piece of art we are currently trying to sell. Still just trying to fill space here so that it seems to look like an actual post rather than some made up thing. </tspan></tspan><tspan dy="1.5em" x="1" class="cls-16">Guess what. I’m still just trying to fill space here. This paragraph is to look like someone was writing a lot and had to take it into another paragraph, but it’s actually just some sort of BS so that we can fill more space. </tspan><tspan dy="1.5em" x="1" class="cls-17"> </tspan></text>
+      </g>
+    </g>
+    <g>
+      <path d="M1.000,2112.000 L1.000,2111.000 L1101.000,2111.000 L1101.000,2112.000 L1.000,2112.000 Z" class="cls-18"/>
+      <rect x="461" y="1206" width="640" height="798" class="cls-2"/>
+      <g>
+        <text x="-98" y="1668" class="cls-3"><tspan x="-98" class="cls-4">$30</tspan></text>
+        <g>
+          <g style="fill: #01bfc1; filter: url(#drop-shadow-1)">
+            <rect x="65" y="1656" width="121" height="42" id="rect-2" style="stroke: inherit; filter: none; fill: inherit" class="cls-5"/>
+          </g>
+          <use xlink:href="#rect-2" style="stroke: #4dd9da; filter: none; fill: none"/>
+          <text x="94" y="1682" class="cls-6"><tspan class="cls-7">BUY This</tspan></text>
+        </g>
+        <text y="1583" class="cls-8"><tspan class="cls-8"><tspan class="cls-9">Check out how it was made  <tspan class="cls-10">→</tspan></tspan></tspan></text>
+        <text x="1" y="1207" class="cls-11"><tspan class="cls-12">An Anchored Heart</tspan><tspan dy="0.375em" x="1" class="cls-13">11x14 Framed Digital Print</tspan><tspan dy="1.2em" x="1" class="cls-14"><tspan class="cls-15">This is something I wrote to fill space, but would actually mean something very important to this piece of art we are currently trying to sell. Still just trying to fill space here so that it seems to look like an actual post rather than some made up thing. </tspan></tspan><tspan dy="1.5em" x="1" class="cls-16">Guess what. I’m still just trying to fill space here. This paragraph is to look like someone was writing a lot and had to take it into another paragraph, but it’s actually just some sort of BS so that we can fill more space. </tspan><tspan dy="1.5em" x="1" class="cls-17"> </tspan></text>
+      </g>
+    </g>
+    <g>
+      <path d="M1.000,1098.000 L1.000,1097.000 L1101.000,1097.000 L1101.000,1098.000 L1.000,1098.000 Z" class="cls-18"/>
+      <rect x="461" y="192" width="640" height="798" class="cls-2"/>
+      <g>
+        <text x="-98" y="696" class="cls-3"><tspan x="-98" class="cls-4">$20</tspan></text>
+        <g>
+          <g style="fill: #01bfc1; filter: url(#drop-shadow-1)">
+            <rect x="65" y="684" width="121" height="42" id="rect-3" style="stroke: inherit; filter: none; fill: inherit" class="cls-5"/>
+          </g>
+          <use xlink:href="#rect-3" style="stroke: #4dd9da; filter: none; fill: none"/>
+          <text x="94" y="710" class="cls-6"><tspan class="cls-7">BUY This</tspan></text>
+        </g>
+        <g>
+          <g style="fill: #01ccce; filter: url(#drop-shadow-1)">
+            <rect x="65" y="684" width="121" height="42" id="rect-4" style="stroke: inherit; filter: none; fill: inherit" class="cls-19"/>
+          </g>
+          <use xlink:href="#rect-4" style="stroke: #4dd9da; filter: none; fill: none"/>
+          <text x="94" y="710" class="cls-6"><tspan class="cls-7">BUY This</tspan></text>
+        </g>
+        <text y="611" class="cls-8"><tspan class="cls-8"><tspan class="cls-9">Check out how it was made  <tspan class="cls-10">→</tspan></tspan></tspan></text>
+        <text x="1" y="193" class="cls-11"><tspan class="cls-12">2012 Monster Calender</tspan><tspan dy="0.375em" x="1" class="cls-13">6x6 Screen Print Calender</tspan><tspan dy="1.2em" x="1" class="cls-14"><tspan class="cls-15">This is something I wrote to fill space, but would actually mean something very important to this piece of art we are currently trying to sell. Still just trying to fill space here so that it seems to look like an actual post rather than some made up thing. </tspan></tspan><tspan dy="1.5em" x="1" class="cls-16">Guess what. I’m still just trying to fill space here. This paragraph is to look like someone was writing a lot and had to take it into another paragraph, but it’s actually just some sort of BS so that we can fill more space. </tspan><tspan dy="1.5em" x="1" class="cls-17"> </tspan></text>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect x="1" y="1" width="80" height="80" class="cls-20"/>
+    <path d="M65.011,52.811 L65.011,57.285 L61.432,57.285 C58.936,57.285 57.204,55.308 57.204,52.859 L57.204,28.746 L61.432,28.746 L61.432,33.738 L65.011,33.738 L65.011,38.212 L61.432,38.212 L61.432,52.811 L65.011,52.811 ZM52.208,57.380 L51.690,57.380 C49.241,57.380 47.216,55.308 47.216,52.859 L47.216,38.212 C47.216,35.716 49.147,33.644 51.690,33.644 L52.208,33.644 C54.751,33.644 56.682,35.716 56.682,38.212 L56.682,52.764 C56.682,55.308 54.751,57.380 52.208,57.380 ZM52.435,38.212 L51.425,38.212 L51.425,52.764 L52.435,52.764 L52.435,38.212 ZM42.021,57.285 C42.021,57.285 41.629,57.285 41.455,57.285 C38.961,57.285 36.981,55.259 36.981,52.807 C36.981,52.384 36.981,24.272 36.981,24.272 L41.455,24.272 L41.455,33.738 L41.974,33.738 C44.469,33.738 46.448,35.763 46.448,38.212 L46.448,52.906 C46.448,55.308 44.468,57.285 42.021,57.285 ZM42.233,38.212 L41.196,38.212 L41.196,52.811 L42.233,52.811 L42.233,38.212 ZM31.985,57.394 L31.467,57.394 C29.018,57.394 26.993,55.322 26.993,52.873 L26.993,38.226 C26.993,35.730 28.924,33.658 31.467,33.658 L31.985,33.658 C34.528,33.658 36.459,35.730 36.459,38.226 L36.459,52.778 C36.459,55.322 34.528,57.394 31.985,57.394 ZM32.250,38.226 L31.213,38.226 L31.213,52.778 L32.250,52.778 L32.250,38.226 ZM21.997,57.285 C21.920,57.285 21.479,57.285 21.479,57.285 C18.983,57.285 17.005,55.261 17.005,52.811 L17.005,38.259 C17.005,35.763 19.030,33.738 21.479,33.738 L21.997,33.738 L21.997,24.319 L26.471,24.319 C26.471,24.319 26.471,52.271 26.471,52.807 C26.471,55.259 24.491,57.285 21.997,57.285 ZM22.256,38.259 L21.220,38.259 L21.220,52.811 L22.256,52.811 L22.256,38.259 Z" class="cls-21"/>
+    <rect x="-217" y="-46" width="1540" height="47" class="cls-20"/>
+  </g>
+</svg>
