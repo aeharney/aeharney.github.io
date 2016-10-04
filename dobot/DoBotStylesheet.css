@@ -7,6 +7,7 @@
   font-size:36px;
   font-family:"Quatro Slab";
   color:white;
+  font-weight:200;
 }
 
 .p-size-description{
@@ -27,8 +28,23 @@
 	font-family:"LFT Etica";
 	color:#01bfc1;
 	text-decoration:none;
+	border-bottom: 1.5px dotted #abadad;
 }
 
-,.button{
+.price{
+	font-family:"Quatro Slab";
+	color:white;
+	font-size:24px;
+	font-weight:200;
+}
 
+.button{
+	color:white;
+	font-family:"LFT Etica";
+	text-transform:uppercase;
+	background-color:#01bfc1;
+}
+
+.article{
+	border-bottom: 1.5px dotted #abadad;
 }
