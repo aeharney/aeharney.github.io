@@ -45,7 +45,7 @@
 	background-color:#01bfc1;
 }
 
-.article:not(:last-child){
+.article:not-last-child{
 	border-bottom: 0.5px solid #abadad;
 }
 
