@@ -9,7 +9,7 @@ body {
   width: 1200px;
 }
 
-div {
+.redbarheader {
 	background-color:#f8695a;
 	height:2px;
 	length:2000;
@@ -25,6 +25,7 @@ div {
   background-color:green;
   */
   
+  
 }
 
 .p-size-description{
@@ -36,6 +37,9 @@ div {
 	/* For Now 
     background-color:green;
     */
+    margin-top:-20px;
+    margin-bottom: 30px;
+    
 }
 
 .p-description{
@@ -43,6 +47,7 @@ div {
 	font-family:"LFT Etica";
 	color:#abadad;
 	width:370px;
+	line-height: 22px;
 	/* For Now 
     background-color:green;
     */
@@ -62,7 +67,12 @@ div {
 	border-bottom: 0.5px dotted #abadad;
 	width:370px;
 	margin-top:25px;
+}
 
+.solid-border{
+	border-bottom: 0.5px solid #abadad;
+	width: 1200px;
+	margin-top:25px;
 }
 
 .price{
