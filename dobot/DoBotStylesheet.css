@@ -3,6 +3,12 @@
 	background-color:#1a2325;
 }
 
+body {
+  margin-right: auto;
+  margin-left: auto;
+  width: 960px;
+}
+
 .heading{
   font-size:36px;
   font-family:"Quatro Slab";
@@ -48,4 +54,5 @@
 .article:not-last-child{
 	border-bottom: 0.5px solid #abadad;
 }
+
 
