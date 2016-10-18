@@ -115,5 +115,9 @@ body {
 
 .image{
 	float:right;
-	position:top;
+	position:absolute;
+	max-width:70%;
+	max-height:70%;
 }
+
+
