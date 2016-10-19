@@ -108,7 +108,7 @@ body {
 
 /*Spacing Between Articles*/
 article:nth-of-type(1){
-	margin-top:0px;
+	margin-top:70px;
 	margin-left:20px;
 }
 
@@ -125,7 +125,7 @@ article:nth-of-type(3){
 /*Image Styling*/
 .image{
 	float:right;
-    padding: 25px 30px 125px 20px;
+    padding: 150px 30px 125px 20px;
 }
 
 .image:nth-of-type(2){
