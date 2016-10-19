@@ -101,6 +101,18 @@ body {
 	font-size:12px;
 }
 
+a:visited{
+  color:blue;
+}
+
+a:hover{
+  color:darkblue;
+}
+
+a:active{
+  color:yellow;
+}
+
 .price, .button{
 	display:inline-block;
 }
