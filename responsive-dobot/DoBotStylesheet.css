@@ -102,11 +102,11 @@ body {
 }
 
 a:visited{
-  color:blue;
+  color:#f8695a;
 }
 
 a:hover{
-  color:darkblue;
+  color:#f8695a;
 }
 
 a:active{
