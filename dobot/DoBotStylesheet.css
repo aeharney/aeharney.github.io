@@ -1,4 +1,6 @@
 
+
+
 *{
 	background-color:#1a2325;
 }
@@ -7,13 +9,13 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
+  border-top: 2px solid #f8695a;
 }
 
-.redbarheader {
+/*.redbarheader {
 	background-color:#f8695a;
 	height:2px;
-	length:2000;
-}
+}*/
 
 .heading{
   font-size:36px;
@@ -24,12 +26,6 @@ body {
   /* For Now 
   background-color:green;
   Anne E Harney*/  
-}
-
-
-
-.heading:not-first-child{
-	border-top:500px;
 }
 
 .p-size-description{
@@ -73,9 +69,9 @@ body {
 }
 
 .solid-border{
-	border-bottom: 0.1px solid #abadad;
-	width: 1200px;
-	margin-top:25px;
+	border: 0.1px solid #abadad;
+	margin-top:360px;
+	border-bottom-width:1200;
 }
 
 .price{
@@ -107,30 +103,32 @@ body {
 	display:inline-block;
 }
 
-article:nth-type(1){
-	border-bottom: 0.5px solid #abadad;
-	/* For Now 
-    background-color:green;
-	*/
-}
-
-article{
-	margin-top:400px;
-}
-
+/*Spacing Between Articles*/
 article:nth-of-type(1){
 	margin-top:0px;
 }
 
+article:nth-of-type(2){
+	margin-top:90px;
+}
 
+article:nth-of-type(3){
+	margin-top:90px;
+}
+
+/*Image Styling*/
 .image{
 	float:right;
-	/* max-width:70%;
-	max-height:70%; */
-    /*width: 600px;*/
     padding: 25px 0px 125px 20px;
 }
 
+.image:nth-of-type(2){
+	padding: 50px 0px 75px 20px;
+}
+
+.image:nth-of-type(3){
+	padding: 60px 0px 75px 20px;
+}
 /*
 .heading, .image{
 	display:inline-block;
