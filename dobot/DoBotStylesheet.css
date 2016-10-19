@@ -9,13 +9,16 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
-  border-top: 2px solid #f8695a;
 }
 
-/*.redbarheader {
+.redbarheader {
 	background-color:#f8695a;
 	height:2px;
-}*/
+}
+
+.logo{
+	margin-left:20px;
+}
 
 .heading{
   font-size:36px;
@@ -106,14 +109,17 @@ body {
 /*Spacing Between Articles*/
 article:nth-of-type(1){
 	margin-top:0px;
+	margin-left:20px;
 }
 
 article:nth-of-type(2){
 	margin-top:90px;
+	margin-left:20px;
 }
 
 article:nth-of-type(3){
 	margin-top:90px;
+	margin-left:20px;
 }
 
 /*Image Styling*/
