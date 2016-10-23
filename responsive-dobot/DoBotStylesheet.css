@@ -14,6 +14,9 @@ body {
 .redbarheader {
 	background-color:#f8695a;
 	height:2px;
+	position:absolute;
+	right:0;
+	left:0;
 }
 
 .logo{
