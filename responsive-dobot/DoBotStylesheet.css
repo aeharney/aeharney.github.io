@@ -28,6 +28,7 @@ body {
   color:white;
   font-weight:200;
   width:350px;
+  font-weight:lighter;
   /*  Anne E Harney */  
 }
 
@@ -39,14 +40,16 @@ body {
 	width:200px;
     margin-top:-20px;
     margin-bottom: 30px;
+    font-weight:lighter;
 }
 
 .p-description{
 	font-size:16px;
 	font-family:"LFT Etica";
 	color:#abadad;
-	width:370px;
+	width:360px;
 	line-height: 22px;
+	font-weight:lighter;
 	/*background-color:green;*/
 }
 
@@ -57,6 +60,7 @@ body {
 	text-decoration:none;
 	padding:0px 165px 25px 0px;
 	border-bottom:1px dotted #4b5152;
+	font-weight:lighter;
 	/*background-color: green;*/
 }
 
@@ -67,7 +71,6 @@ body {
 	font-weight:200;
 	padding-top:50px;
 	width:200px;
-	background-color:green;
 }
 
 .button{
