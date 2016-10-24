@@ -84,10 +84,6 @@ body {
 	font-weight:bold;
 }
 
-.spacebetween{
-	width:1000px;
-}
-
 /*.price, .button{
 	margin-top:90px;
 }*/
@@ -95,19 +91,19 @@ body {
 .image-1{
 	float:right;
     clear:both;
-    margin-top:-395px;
+    margin-top:-530px;
 }
 
 .image-2{
 	float:right;
     clear:both;
-    margin-top:-355px;
+    margin-top:-490px;
 }
 
 .image-3{
 	float:right;
 	clear:both;
-	margin-top:-355px;
+	margin-top:-490px;
 }
 
 a:visited{
