@@ -1,55 +1,226 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <title>
-      DoBot Shop
-    </title>
-    <meta charset="UTF-8">
-    <link type="text/css" rel="reset" href="reset.css">
-    <link type="text/css" rel="Stylesheet" href="DoBotStylesheet.css">
-    <div class="redbarheader"></div>
-  </head>
-  <body>
-    <header>
-    </header>
-      <a href="inserthomepagehere.com"><img class="logo" src="images/DoBot_Boxed_Logo.svg" alt="Red DoBot Top Logo"></a>
-          
-          <img class="image" src="images/MonsterCalender.png" alt="Monster Calendar Image">
-          <img class="image" src="images/AnAnchoredHeart.png" alt="An Anchored Heart Image">
-          <img class="image" src=" images/BuyFilm.png" alt="Buy Film Image">
 
-      <article class="article">
-        <h1 class="heading">2012 Monster Calendar</h1>
-              <p class="p-size-description">6x6 Screen Print Calender</p>
-              <p class="p-description">This is something I wrote to fill space, but would actually mean something very important to this piece of art we are currently trying to sell. Still just trying to fill space here so that it seems to look like an actual post rather than some made up thing.</p>
-              <p class="p-description">Guess what. I’m still just trying to fill space here. This paragraph is to look like someone was writing a lot and had to take it into another paragraph, but it’s actually just some sort of BS so that we can fill more space.</p>
-              <a class="how-its-made" href="www.dobot.com/MonsterCalendarLook">Check out how it was made &#8594;</a>
-                <div class="dotted-border"></div>
-          <h2 class="price">$20 <a class="button" href="buythis.com">Buy This</a></h2>
-          <div class="solid-border"></div>
-      </article>
 
-      <article class="article">
-        <h1 class="heading">An Anchored Heart</h1>
-            <p class="p-size-description"> 11x14 Framed Digital Print</p>
-            <p class="p-description">This is something I wrote to fill space, but would actually mean something very important to this piece of art we are currently trying to sell. Still just trying to fill space here so that it seems to look like an actual post rather than some made up thing.</p>
-            <p class="p-description">Guess what. I’m still just trying to fill space here. This paragraph is to look like someone was writing a lot and had to take it into another paragraph, but it’s actually just some sort of BS so that we can fill more space.</p>
-            <a class="how-its-made" href="www.dobot.com/AnAnchoredHeartLook">Check out how it was made &#8594;</a>
-              <div class="dotted-border"></div>
-          <h2 class="price">$30</h2>
-            <a class="button" href="buythis.com">Buy This</a>
-          <div class="solid-border"></div>
-      </article>
+body {
+  border-top:4px solid #f8695a;
+    background-color:#1a2325;
+    margin:0px;
+}
 
-      <article class="article">
-        <h1 class="heading">Buy Film</h1>
-            <p class="p-size-description"> 4x4 Vinyl Stickers</p>
-            <p class="p-description">This is something I wrote to fill space, but would actually mean something very important to this piece of art we are currently trying to sell. Still just trying to fill space here so that it seems to look like an actual post rather than some made up thing.</p>
-            <p class="p-description">Guess what. I’m still just trying to fill space here. This paragraph is to look like someone was writing a lot and had to take it into another paragraph, but it’s actually just some sort of BS so that we can fill more space.</p>
-            <a class="how-its-made" href="www.dobot.com/BuyFilmLook">Check out how it was made &#8594;</a>
-              <div class="dotted-border"></div>
-        <h2 class="price">$10 </h2>
-        <a class="button" href="buythis.com">Buy This</a>
-      </article>
-  </body>
-</html>
+header{
+  margin-right: auto;
+    margin-left: auto;
+    width:1200px;
+}
+
+.heading{
+    font-size:36px;
+  font-family:"Quatro Slab";
+  color:white;
+  font-weight:200;
+  width:350px;
+    font-weight:lighter;
+    padding-bottom:30px;
+  /*background-color:green;
+  position:static;
+  /*  Anne E Harney */  
+}
+
+.logo{
+  margin:-1px;
+}
+
+.p-size-description{
+  font-size:16px;
+  font-family:"LFT Etica";
+  color:#555a5b;
+  font-weight:500;
+  width:200px;
+    margin-top:-20px;
+    margin-bottom: 30px;
+    font-weight:lighter;
+    display:-inline-block;
+}
+
+.p-description{
+  font-size:16px;
+  font-family:"LFT Etica";
+  color:#abadad;
+  width:360px;
+  line-height: 23px;
+  font-weight:lighter;
+  padding-bottom:10px;
+  /*background-color:green;*/
+}
+
+.how-its-made{
+  font-size:16px;
+  font-family:"LFT Etica";
+  color:#01bfc1;
+  text-decoration:none;
+  padding:10px 40px 32px 0px;
+  font-weight:lighter;
+  display:inline-block;
+
+  /*background-color: green;*/
+}
+
+.price{
+  font-family:"Quatro Slab";
+  color:white;
+  font-size:24px;
+  font-weight:200;
+  padding-top:40px;
+  display:inline-block;
+}
+
+.button{
+  color:white;
+  font-family:"LFT Etica";
+  text-transform:uppercase;
+  background-color:#01ccce;
+  border:.5px solid #4dd9da;
+  padding: 11px 30px 11px 30px;
+  margin-left:20px;
+  width:175px;
+  text-decoration:none;
+  text-align:center;
+  font-size:14px;
+  font-weight:bold;
+  background: repeating-linear-gradient(
+    45deg,
+    #01ccce,
+      #01ccce 1px,
+    #01c2c3 1px,
+    #01c2c3 2px
+    );
+}
+
+div{
+  border-top:1px dotted #31393b;
+  width:350px;
+}
+
+.image{
+  position:absolute;
+  right:30px;
+  top:95px;
+  padding-bottom:150px;
+}
+
+a:visited{
+  color:#f8695a;
+}
+
+a:hover{
+  color:#f8695a;
+}
+
+a:active{
+  color:yellow;
+}
+
+/*Spacing Between Articles*/
+
+article{
+  margin-right: auto;
+    margin-left: auto;
+    width:1200px;
+    padding-top:100px;
+    position:relative;
+}
+
+article:not(:last-child){
+  padding-bottom:380px;
+  border-bottom:1px solid #31393b;
+
+}
+
+
+
+
+/*.price, .button{
+  margin-top:90px;
+}*/
+
+/*.image-1{
+  float:right;
+    clear:both;
+    margin-top:-530px;
+}
+
+.image-2{
+  float:right;
+    clear:both;
+    margin-top:-490px;
+}
+
+.image-3{
+  float:right;
+  clear:both;
+  margin-top:-490px;
+}
+*/
+
+
+
+
+
+/*
+OLD BORDER STUFF
+.dotted-border{
+  border-bottom: 0.5px dotted #abadad;
+  width:370px;
+  margin-top:25px;
+}
+
+.solid-border{
+  border: 0.1px solid #abadad;
+  margin: 360px 8px 0 0;
+}
+*/
+
+/*
+Old Spacing Between Articles, All Separate
+article:nth-of-type(1){
+  margin-top:90px;
+  margin-left:20px;
+}
+
+article:nth-of-type(2){
+  margin-top:90px;
+  margin-left:20px;
+}
+
+article:nth-of-type(3){
+  margin-top:90px;
+  margin-left:20px;
+}
+*/
+
+
+/*Image Styling*/
+
+/*
+    float: right;
+    clear: both;
+    margin-top: -380px;
+    width: 600px;
+    height: 800px;
+}
+*/
+
+/*.image{
+  float:right;
+  clear:both;
+  padding-top:100px;
+  margin: 45px 30px 0 100px;
+}*/
+
+
+/*
+.heading, .image{
+  display:inline-block;
+  vertical-align:top;
+}
+*/
+
