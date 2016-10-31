@@ -15,7 +15,7 @@ header{
 .heading{
     font-size:36px;
 	font-family:"Quatro Slab";
-	color:white;
+	color:pink;
 	font-weight:200;
 	width:350px;
     font-weight:lighter;
@@ -23,6 +23,7 @@ header{
 	/*background-color:green;
 	position:static;
   /*  Anne E Harney */  
+  /* RESPONSIVE */
 }
 
 .logo{
