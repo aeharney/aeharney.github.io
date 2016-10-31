@@ -101,9 +101,9 @@ div{
 }
 
 .image{
-	position:relative;
-	float:right;
-	top:-505px;
+	position:absolute;
+	right:30px;
+	top:95px;
 	padding-bottom:150px;
 }
 
@@ -126,6 +126,7 @@ article{
     margin-left: auto;
     width:1200px;
     padding-top:100px;
+    position:relative;
 }
 
 article:not(:last-child){
