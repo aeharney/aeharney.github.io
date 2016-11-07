@@ -12,6 +12,60 @@ header{
     width:1200px;
 }
 
+
+
+
+/* DESKTOP */
+@media(max-width:1000px){
+	article{
+		max-width: 100%;
+		height:auto;
+	}
+
+	p{
+		max-width: 100%;
+		height:auto;
+	}
+
+
+	/*img{
+		max-width:100%;
+		height:auto;
+	}*/
+}
+
+
+
+
+/* IPAD */
+@media(max-width:768px){
+	p{
+		color:pink;
+	}
+}
+
+
+/* IPHONE 6 PLUS */
+@media(max-width:414px){
+
+}
+
+
+/* IPHONE 6 */
+@media(max-width:375px){
+
+}
+
+/* IPHONE 5 */
+@media(max-width:320px){
+
+}
+
+
+
+
+
+
 .heading{
     font-size:36px;
 	font-family:"Quatro Slab";
