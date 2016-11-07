@@ -261,12 +261,7 @@ article:not(:last-child){
 
 /* IPHONE 6PLUS */
 @media(max-width:414px){
-	header{
-	padding-left:7%;
-	margin-right: auto;
-	margin-left: auto;
-	width:50%;
-	}
+
 
 	.image{
 		width: 60%;
