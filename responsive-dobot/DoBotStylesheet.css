@@ -265,11 +265,11 @@ article:not(:last-child){
 	padding-left:7%;
 	margin-right: auto;
 	margin-left: auto;
-	width:80%;
+	width:50%;
 	}
 
 	.image{
-		width: 110%;
+		width: 60%;
 	}
 
 	.p-size-description{
