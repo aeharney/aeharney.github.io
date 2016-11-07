@@ -13,59 +13,6 @@ header{
 }
 
 
-
-
-/* DESKTOP */
-@media(max-width:1000px){
-	article{
-		max-width: 100%;
-		height:auto;
-	}
-
-	p{
-		max-width: 100%;
-		height:auto;
-	}
-
-
-	/*img{
-		max-width:100%;
-		height:auto;
-	}*/
-}
-
-
-
-
-/* IPAD */
-@media(max-width:768px){
-	p{
-		color:pink;
-	}
-}
-
-
-/* IPHONE 6 PLUS */
-@media(max-width:414px){
-
-}
-
-
-/* IPHONE 6 */
-@media(max-width:375px){
-
-}
-
-/* IPHONE 5 */
-@media(max-width:320px){
-
-}
-
-
-
-
-
-
 .heading{
     font-size:36px;
 	font-family:"Quatro Slab";
@@ -156,11 +103,10 @@ div{
 }
 
 .image{
-	position:absolute;
+
 	right:30px;
 	top:95px;
 	padding-bottom:150px;
-	width:50%;
 }
 
 a:visited{
@@ -180,7 +126,6 @@ a:active{
 article{
 	margin-right: auto;
     margin-left: auto;
-    width:1200px;
     padding-top:100px;
     position:relative;
 }
@@ -194,89 +139,108 @@ article:not(:last-child){
 
 
 
-/*.price, .button{
-	margin-top:90px;
+
+
+
+
+/* DESKTOP */
+@media(min-width:769px){
+	article{
+		width:1200px;
+	}
+
+	.image{
+		position:absolute;
+		right:30px;
+		top:95px;
+		padding-bottom:150px;
+		width:50%;
+	}
+}
+/* DESKTOP */
+
+
+
+
+
+
+
+
+/* IPAD */
+@media(max-width:768px){
+
+
+
+	header{
+		margin-right: auto;
+	    margin-left: auto;
+	    width:100%;
+	}
+
+
+	.heading{
+	    font-size:550%;
+		font-weight:200;
+		width:90%;
+	    padding-bottom:30px;
+	}
+
+	.logo{
+		margin:-1px;
+	}
+
+	.image{
+		float:left;
+		padding-bottom:150px;
+		margin-right:300px;
+
+	}
+
+	.p-size-description{
+		font-size:200%;
+		width:80%;
+	    margin-top:-20px;
+	    margin-bottom: 30px;
+	    display:-inline-block;
+	}
+
+	.p-description{
+		font-size:80%;
+		width:80%;
+		padding-bottom:10px;
+	}
+
+	.how-its-made{
+		font-size:80%;
+		padding:10px 40px 32px 0px;
+		display:inline-block;
+	}
+
+	.price{
+		font-size:400%;
+		font-weight:200;
+		padding-top:40px;
+		display:inline-block;
+	}
+
+	.button{
+		border:.5px solid #4dd9da;
+		padding: 11px 30px 11px 30px;
+		margin-left:20px;
+		width:400%;
+		font-size:14px;
+	}
+
+	div{
+		border-top:1px dotted #31393b;
+		width:350px;
+	}
+
+	article:not(:last-child){
+		padding-bottom:380px;
+		border-bottom:1px solid #31393b;
+	}
 }*/
+/* IPAD */
 
-/*.image-1{
-	float:right;
-    clear:both;
-    margin-top:-530px;
-}
-
-.image-2{
-	float:right;
-    clear:both;
-    margin-top:-490px;
-}
-
-.image-3{
-	float:right;
-	clear:both;
-	margin-top:-490px;
-}
-*/
-
-
-
-
-
-/*
-OLD BORDER STUFF
-.dotted-border{
-	border-bottom: 0.5px dotted #abadad;
-	width:370px;
-	margin-top:25px;
-}
-
-.solid-border{
-	border: 0.1px solid #abadad;
-	margin: 360px 8px 0 0;
-}
-*/
-
-/*
-Old Spacing Between Articles, All Separate
-article:nth-of-type(1){
-	margin-top:90px;
-	margin-left:20px;
-}
-
-article:nth-of-type(2){
-	margin-top:90px;
-	margin-left:20px;
-}
-
-article:nth-of-type(3){
-	margin-top:90px;
-	margin-left:20px;
-}
-*/
-
-
-/*Image Styling*/
-
-/*
-    float: right;
-    clear: both;
-    margin-top: -380px;
-    width: 600px;
-    height: 800px;
-}
-*/
-
-/*.image{
-	float:right;
-	clear:both;
-	padding-top:100px;
-	margin: 45px 30px 0 100px;
-}*/
-
-
-/*
-.heading, .image{
-	display:inline-block;
-	vertical-align:top;
-}
-*/
 
