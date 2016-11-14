@@ -1,3 +1,41 @@
+@font-face {
+  font-family: 'quatro';
+  src: url('/fonts/quatroslab_regular-webfont.eot');
+  src: url('/fonts/quatroslab_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/quatroslab_regular-webfont.woff2') format('woff2'),
+       url('/fonts/quatroslab_regular-webfont.woff') format('woff'),
+       url('/fonts/quatroslab_regular-webfont.ttf') format('truetype'),
+       url('/fonts/quatroslab_regular-webfont.svg#quatro_slabregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'etica-semibold';
+  src: url('/fonts/lft_etica_semibold-webfont.eot');
+  src: url('/fonts/lft_etica_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/lft_etica_semibold-webfont.woff2') format('woff2'),
+       url('/fonts/lft_etica_semibold-webfont.woff') format('woff'),
+       url('/fonts/lft_etica_semibold-webfont.ttf') format('truetype'),
+       url('/fonts/lft_etica_semibold-webfont.svg#lft_etica_sbsemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'etica';
+  src: url('/fonts/lft_etica_reg-webfont.eot');
+  src: url('/fonts/lft_etica_reg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/lft_etica_reg-webfont.woff2') format('woff2'),
+       url('/fonts/lft_etica_reg-webfont.woff') format('woff'),
+       url('/fonts/lft_etica_reg-webfont.ttf') format('truetype'),
+       url('/fonts/lft_etica_reg-webfont.svg#lft_eticaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 
 
 body {
@@ -12,8 +50,12 @@ header{
     width:1200px;
 }
 
+article{
+	overflow:auto;
+}
 
 .heading{
+	padding-left:43px;
     font-size:36px;
 	font-family:"Quatro Slab";
 	color:white;
@@ -28,10 +70,11 @@ header{
 }
 
 .logo{
-	margin:-1px;
+	padding-left:10px;
 }
 
 .p-size-description{
+	padding-left:43px;
 	font-size:16px;
 	font-family:"LFT Etica";
 	color:#555a5b;
@@ -43,6 +86,7 @@ header{
 }
 
 .p-description{
+	padding-left:43px;
 	font-size:16px;
 	font-family:"LFT Etica";
 	color:#abadad;
@@ -54,11 +98,10 @@ header{
 }
 
 .how-its-made{
-	font-size:16px;
 	font-family:"LFT Etica";
 	color:#01bfc1;
 	text-decoration:none;
-	padding:10px 40px 32px 0px;
+	padding:10px 40px 32px 43px;
 	font-weight:lighter;
 	display:inline-block;
 
@@ -66,6 +109,7 @@ header{
 }
 
 .price{
+	padding-left:43px;
 	font-family:"Quatro Slab";
 	color:white;
 	font-size:24px;
@@ -102,10 +146,11 @@ div{
 }
 
 .image{
-
-	right:30px;
-	top:95px;
-	padding-bottom:150px;
+	padding-right:5%;
+	padding-left:4%;
+	float:right;
+	/*width:80%;*/
+	/*padding-bottom:150px;*/
 }
 
 a:visited{
@@ -126,7 +171,7 @@ article{
 	margin-right: auto;
     margin-left: auto;
     position:relative;
-    padding-bottom:500px;
+    padding-bottom:100px;
 }
 
 article:not(:last-child){
@@ -134,7 +179,10 @@ article:not(:last-child){
 
 }
 
-
+/*.heading, .p-size-description, .p-description, .p-description, .how-its-made, .price, .button {
+	float:left;
+	clear:right;
+}*/
 
 
 
@@ -144,14 +192,17 @@ article:not(:last-child){
 /* DESKTOP */
 @media(min-width:769px){
 	article{
-		width:1200px;
+		width:100%;
 		padding-top:100px;
 	}
 
+	.logo{
+		padding-left:43px;
+	}
+
 	.image{
-		position:absolute;
+		float:right;
 		right:30px;
-		top:95px;
 		padding-bottom:150px;
 		width:50%;
 	}
@@ -197,10 +248,11 @@ article:not(:last-child){
 	}
 
 	.logo{
-		margin:-1px;
+		padding-left:0%;
 	}
 
 	.image{
+		width:75%;
 		float:left;
 		padding:30px 30px 40px 7%;
 		margin-right:300px;
@@ -218,7 +270,7 @@ article:not(:last-child){
 	.p-description{
 		padding-left:7%;
 		font-size:100%;
-		width:80%;
+		width:75%;
 		padding-bottom:10px;
 	}
 
@@ -229,6 +281,7 @@ article:not(:last-child){
 	}
 
 	.price{
+		padding-left:0%;
 		font-size:24px;
 		font-weight:200;
 		padding-top:40px;
@@ -244,9 +297,10 @@ article:not(:last-child){
 	}
 
 	div{
+
 		margin-left:7%;
 		border-top:1px dotted #31393b;
-		width:350px;
+
 	}
 
 	article{
@@ -269,6 +323,13 @@ article:not(:last-child){
 /* IPHONE 6PLUS */
 @media(max-width:414px){
 
+	.heading{
+		width:80%;
+		padding-left:7%;
+		font-size:28px;
+	    font-weight:lighter;
+	    padding-bottom:30px;
+	}
 
 	.image{
 		width: 83%;
@@ -298,6 +359,7 @@ article:not(:last-child){
 @media(max-width:320px){
 
 	.heading{
+		width:80%;
 		padding-left:7%;
 		font-size:28px;
 	    font-weight:lighter;
