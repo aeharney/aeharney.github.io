@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'quatro';
+  font-family: 'Quatro Slab';
   src: url('fonts/quatroslab_regular-webfont.eot');
   src: url('fonts/quatroslab_regular-webfont.eot?#iefix') format('embedded-opentype'),
        url('fonts/quatroslab_regular-webfont.woff2') format('woff2'),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: 'etica';
+  font-family: 'LFT Etica';
   src: url('fonts/lft_etica_reg-webfont.eot');
   src: url('fonts/lft_etica_reg-webfont.eot?#iefix') format('embedded-opentype'),
        url('fonts/lft_etica_reg-webfont.woff2') format('woff2'),
