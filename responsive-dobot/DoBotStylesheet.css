@@ -61,7 +61,8 @@ article{
 	font-weight:200;
 	width:350px;
     font-weight:lighter;
-    padding-bottom:30px;
+    padding-bottom:60px;
+    display:inline;
 	/*background-color:green;
 	position:static;
   /*  Anne E Harney */  
@@ -80,7 +81,7 @@ article{
 	color:#555a5b;
 	font-weight:500;
 	width:200px;
-    margin-top:-20px;
+    margin-top:10px;
     font-weight:lighter;
     display:-inline-block;
 }
@@ -186,6 +187,7 @@ article:not(:last-child){
 
 
 
+/*@media(min-width: 1032px)*/
 
 
 
@@ -202,6 +204,7 @@ article:not(:last-child){
 	}
 
 	.image{
+		margin-top:-100px;
 		float:right;
 		right:30px;
 		padding-bottom:150px;
@@ -211,7 +214,7 @@ article:not(:last-child){
 	.p-size-description{
 		font-size:150%;
 		width:70%;
-	    margin-top:-10px;
+	    margin-top:10px;
 	    margin-bottom:30px;
 	    display:-inline-block;
 	}
@@ -264,7 +267,7 @@ article:not(:last-child){
 		padding-left:7%;
 		font-size:150%;
 		width:80%;
-	    margin-top:-10px;
+	    margin-top:10px;
 	    display:-inline-block;
 	}
 
@@ -340,7 +343,7 @@ article:not(:last-child){
 		padding-left:7%;
 		font-size:150%;
 		width:90%;
-	    margin-top:-10px;
+	    margin-top:10px;
 		display:-inline-block;
 		}
 
@@ -360,9 +363,9 @@ article:not(:last-child){
 @media(max-width:320px){
 
 	.heading{
-		width:80%;
+		width:40px;
 		padding-left:7%;
-		font-size:28px;
+		font-size:23px;
 	    font-weight:lighter;
 	    padding-bottom:30px;
 	}
@@ -375,7 +378,7 @@ article:not(:last-child){
 		padding-left:7%;
 		font-size:20px;
 		width:85%;
-	    margin-top:-20px;
+	    margin-top:20px;
 		display:-inline-block;
 		}
 
