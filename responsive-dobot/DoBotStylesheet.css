@@ -47,7 +47,6 @@ body {
 header{
 	margin-right: auto;
     margin-left: auto;
-    width:1200px;
 }
 
 article{
@@ -70,7 +69,8 @@ article{
 }
 
 .logo{
-	padding-left:10px;
+	padding-left:0%;
+	/*padding-left:10px;*/
 }
 
 .p-size-description{
@@ -198,6 +198,7 @@ article:not(:last-child){
 
 	.logo{
 		padding-left:43px;
+
 	}
 
 	.image{
