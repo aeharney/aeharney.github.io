@@ -58,11 +58,10 @@ article{
     font-size:36px;
 	font-family:"Quatro Slab";
 	color:white;
-	font-weight:200;
-	width:350px;
+	width:320px;
     font-weight:lighter;
-    padding-bottom:60px;
-    display:inline;
+    display:inline-block;
+
 	/*background-color:green;
 	position:static;
   /*  Anne E Harney */  
@@ -246,7 +245,7 @@ article:not(:last-child){
 
 	.heading{
 		padding-left:7%;
-		font-size:36px;
+		font-size:50px;
 	    font-weight:lighter;
 	    padding-bottom:30px;
 	}
@@ -265,7 +264,7 @@ article:not(:last-child){
 
 	.p-size-description{
 		padding-left:7%;
-		font-size:150%;
+		font-size:180%;
 		width:80%;
 	    margin-top:10px;
 	    display:-inline-block;
@@ -330,7 +329,7 @@ article:not(:last-child){
 	.heading{
 		width:80%;
 		padding-left:7%;
-		font-size:28px;
+		font-size:32px;
 	    font-weight:lighter;
 	    padding-bottom:30px;
 	}
