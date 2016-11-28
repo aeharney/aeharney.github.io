@@ -12,31 +12,32 @@ a{
 	text-decoration: none;
 }
 
+p{
+	font-family:Open Sans;
+	font-size:16px;
+	font-weight:400;
+	line-height:20px;
+}
+
 .logo{
 	height:80px;
 	padding:0px;
 }
 
 .AboutMePic{
-	height:60%;
-	width:60%;
+	height:50%;
+	width:50%;
 	transform: rotate(90deg);
 	float:right;
-	padding-top:30px;
+	padding-top:-40px;
 	padding-left:40px;
-	margin-right:-120px;
+	/*margin-right:-40px;*/
+	margin-right:0%;
 }
 
 .article-about-me{
 	padding-left:30px;
 	padding-top:150px;
-}
-
-p{
-	font-family:Open Sans;
-	font-size:16px;
-	font-weight:400;
-	line-height:20px;
 }
 
 .heading-about-me{
@@ -48,13 +49,10 @@ p{
 
 .p-about-me{
 	width:45%;
+	padding-left:4px;
 }
 
-/*.navbar{
-	display:inline;
-	margin-top:-40px;
-	position:center;
-}*/
+
 
 ul{
 	list-style-type:none;
@@ -73,14 +71,42 @@ li a{
 	display:block;
 	color:black;
 	text-align:center;
-	padding:20px 16px;
+	padding:18.5px 16px;
 	text-decoration:none;
 	font-family:Open Sans;
 	font-size:16px;
 	font-weight:400;
 }
 
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #6ac9ca;
+}
 
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#fffbcf;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
 
