@@ -1,6 +1,7 @@
 body{
 	background-color:#6ac9ca;
 	margin:0px;
+
 }
 
 header{
@@ -70,11 +71,22 @@ CONTACT CONTACT CONTACT
 
 .heading-check-me{
 	padding-top:20px;
-	color:red;
 }
 
+/*
+PROJECTS PROJECTS PROJECTS
+*/
 
+.project-image{
+	height: 30%;
+	width: 30%;
+	padding-top:100px;
+}
 
+.p-project{
+	width:50%;
+	padding-left:30px;
+}
 
 /*.navbar{
 	position:fixed;
@@ -95,20 +107,27 @@ ul{
 }
 
 li{
-	float:left;
-	padding-right:40px;
-	padding-left:40px;
+    float: left;
+    height: 40px;
+    width: 140px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 li a{
 	display:block;
 	color:black;
 	text-align:center;
-	padding:18.5px 100% 16px 100%;
+	padding:18.5px 0px 18px 0px;
 	text-decoration:none;
 	font-family:Open Sans;
 	font-size:16px;
 	font-weight:400;
+}
+
+.nav-link{
+	padding-right:80px;
+	padding-left:80px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
