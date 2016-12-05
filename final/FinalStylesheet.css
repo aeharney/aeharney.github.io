@@ -32,7 +32,6 @@ ABOUT ME ABOUT ME ABOUT ME
 .AboutMePic{
 	height:50%;
 	width:50%;
-	transform: rotate(90deg);
 	float:right;
 	padding-top:-40px;
 	padding-left:40px;
@@ -40,7 +39,7 @@ ABOUT ME ABOUT ME ABOUT ME
 	margin-right:0%;
 }
 
-.article-about-me, .project-article{
+.article-about-me, .project-article,{
 	padding-left:30px;
 	padding-top:150px;
 }
@@ -50,11 +49,16 @@ ABOUT ME ABOUT ME ABOUT ME
 	font-size:60px;
 	font-weight:700;
 	padding-bottom:10px;
+	padding-left:30px;
+}
+
+.heading-talk-me{
+	padding-top:200px;
 }
 
 .p-about-me, .project-p{
 	width:45%;
-	padding-left:4px;
+	padding-left:40px;
 }
 
 
@@ -67,9 +71,15 @@ CONTACT CONTACT CONTACT
 	font-size:60px;
 	font-weight:700;
 	padding-bottom:10px;
+	padding-left:30px;
 }
 
 .heading-check-me{
+	padding-top:20px;
+}
+
+.p-contact{
+	padding-left:40px;
 	padding-top:20px;
 }
 
@@ -77,15 +87,17 @@ CONTACT CONTACT CONTACT
 PROJECTS PROJECTS PROJECTS
 */
 
-.project-image, .project-image-small{
-	height: 30%;
-	width: 30%;
+.project-image, .project-image-small, .pic-grid-img{
+	height: 300px;
+	width: 300px;
 	padding-top:100px;
+
 }
 
 .p-project{
 	width:50%;
 	padding-left:30px;
+	padding-bottom:100pc;
 }
 
 /*
@@ -111,6 +123,7 @@ PROJECTS PROJECTS PROJECTS
 header{
 	position:fixed;
 	width:100%;
+	z-index:1;
 }
 
 ul{
@@ -128,6 +141,10 @@ li{
     width: 140px;
     padding-right: 5px;
     padding-left: 5px;
+}
+
+.logo-link{
+
 }
 
 li a{
@@ -185,6 +202,10 @@ PROJECT IMAGE GRID -- PROJECT IMAGE GRID
 
 .pic-grid-div {
   font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right:30px;
+  padding-bottom:50px;
 }
 
 .pic-grid-a {
@@ -216,16 +237,25 @@ PROJECT IMAGE GRID -- PROJECT IMAGE GRID
 }
 
 .pic-grid-a:hover img {
-  transform: scale(1.15);
+  transform: scale(1.07);
 }
 
 figure {
   margin: 0;
   overflow: hidden;
+  padding:10px 40px 20px 40px;
+  text-decoration: none;
 }
 
 figcaption {
   margin-top: 15px;
+  width:100%;
+  margin-right:10px;
+  text-decoration: none;
+  color:black;
+  font-family:Open Sans;
+  font-size:16px;
+  line-height: 20px;
 }
 
 .pic-grid-image {
@@ -241,18 +271,34 @@ figcaption {
   display: inline;
   font-size: 13px;
   margin: 0;
-  text-decoration: underline;
   color: blue;
 }
 
+figure figcaption{
+	text-decoration: none;
+}
 
+/*
+CONTACT ICON CONTACT ICON CONTACT ICON
+*/
 
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: #FFF8DC;
+  fill: #FFF8DC;
+  height:4%;
+  width:4%;
+  padding:12px;
+  
+}
 
-
-
-
-
-
+.icon:hover{
+  fill:#FCDC3B;
+  cursor: pointer;
+}
 
 
 
