@@ -30,57 +30,81 @@ ABOUT ME ABOUT ME ABOUT ME
 */
 
 .AboutMePic{
-	height:50%;
-	width:50%;
-	float:right;
-	padding-top:-40px;
+	height:250px;
+	width:250px;
+	/*padding-top:-40px;*/
 	padding-left:40px;
 	/*margin-right:-40px;*/
 	margin-right:0%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:100px;
+    float:right;
+    clear:left;
 }
 
-.article-about-me, .project-article,{
+.project-article,{
 	padding-left:30px;
-	padding-top:150px;
+	padding-top:100px;
 }
 
-.heading-about-me, .project-header{
+.heading-about-me, .project-header, .heading-talk-me, .heading-check-me{
 	font-family:Open Sans;
 	font-size:60px;
 	font-weight:700;
 	padding-bottom:10px;
-	padding-left:30px;
+	padding-left:38px;
+	padding-top:100px;
 }
 
 .heading-talk-me{
-	padding-top:200px;
+	padding-top:150px;
+	padding-left:38px;
 }
 
-.p-about-me, .project-p{
-	width:45%;
+.project-p, .project-p-click{
+	width:400px;
 	padding-left:40px;
+	padding-bottom:15px;
 }
 
+.article-about-me{
+	float:left;
+	width:49%;
+}
 
-/*
-CONTACT CONTACT CONTACT
-*/
+.about-me-pic, .article-about-me{
+	display: inline-block;
+}
 
-.heading-talk-me, .heading-check-me {
-	font-family:Open Sans;
-	font-size:60px;
-	font-weight:700;
-	padding-bottom:10px;
-	padding-left:30px;
+.p-about-me{
+	text-align: center;
+}
+
+.project-p-click{
+	font-style:italic;
+}
+
+.heading-about-me{
+	padding-top:30px;
+}
+
+.heading-about-me, .p-about-me{
+	text-align: center;
+}
+
+.heading-check-me, .heading-talk-me{
+	padding-top:300px;
 }
 
 .heading-check-me{
-	padding-top:20px;
+	padding-top:60px;
 }
 
 .p-contact{
 	padding-left:40px;
-	padding-top:20px;
+	padding-top:10px;
 }
 
 /*
@@ -90,31 +114,11 @@ PROJECTS PROJECTS PROJECTS
 .project-image, .project-image-small, .pic-grid-img{
 	height: 300px;
 	width: 300px;
-	padding-top:100px;
+	padding-top:50px;
 
 }
 
-.p-project{
-	width:50%;
-	padding-left:30px;
-	padding-bottom:100pc;
-}
 
-/*
-3D INTERVENTION 3D INTERVENTION
-*/
-
-.project-header{
-
-}
-
-.project-p{
-
-}
-
-.project-image-small{
-	transform: rotate(90deg);
-}
 
 /*.navbar{
 	position:fixed;
