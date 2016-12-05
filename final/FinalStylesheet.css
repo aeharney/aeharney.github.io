@@ -30,19 +30,13 @@ ABOUT ME ABOUT ME ABOUT ME
 */
 
 .AboutMePic{
-	height:250px;
-	width:250px;
-	/*padding-top:-40px;*/
+	height:275px;
+	width:275px;
+	padding-top:200px;
 	padding-left:40px;
-	/*margin-right:-40px;*/
-	margin-right:0%;
+	padding-right:60px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:100px;
-    float:right;
-    clear:left;
-}
+    float:right;}
 
 .project-article,{
 	padding-left:30px;
@@ -59,27 +53,33 @@ ABOUT ME ABOUT ME ABOUT ME
 }
 
 .heading-talk-me{
-	padding-top:150px;
+	padding-top:100px;
 	padding-left:38px;
 }
 
-.project-p, .project-p-click{
-	width:400px;
-	padding-left:40px;
-	padding-bottom:15px;
+.article-contact-me{
+	padding-left:100px;
 }
 
 .article-about-me{
+	padding-left:100px;
 	float:left;
 	width:49%;
 }
 
-.about-me-pic, .article-about-me{
-	display: inline-block;
+.project-p, .project-p-click, .p-about-me{
+	width:60%;
+	padding-left:40px;
+	padding-bottom:15px;
 }
 
 .p-about-me{
-	text-align: center;
+	padding-left:80px;
+	width:80%;
+}
+
+.about-me-pic, .article-about-me{
+	display: inline-block;
 }
 
 .project-p-click{
@@ -87,15 +87,12 @@ ABOUT ME ABOUT ME ABOUT ME
 }
 
 .heading-about-me{
-	padding-top:30px;
-}
-
-.heading-about-me, .p-about-me{
-	text-align: center;
+	padding-top:200px;
+	font-weight:700px;
 }
 
 .heading-check-me, .heading-talk-me{
-	padding-top:300px;
+	padding-top:200px;
 }
 
 .heading-check-me{
@@ -103,8 +100,10 @@ ABOUT ME ABOUT ME ABOUT ME
 }
 
 .p-contact{
-	padding-left:40px;
+	padding-left:80px;
 	padding-top:10px;
+	font-family:Open Sans;
+	font-size:25px;
 }
 
 /*
@@ -120,9 +119,9 @@ PROJECTS PROJECTS PROJECTS
 
 
 
-/*.navbar{
-	position:fixed;
-}*/
+/*
+	NAV BAR NAV BAR AV BAR NAV BAR
+*/
 
 header{
 	position:fixed;
@@ -283,7 +282,7 @@ figure figcaption{
 }
 
 /*
-CONTACT ICON CONTACT ICON CONTACT ICON
+CONTACT  CONTACT  CONTACT 
 */
 
 .icon {
@@ -292,9 +291,9 @@ CONTACT ICON CONTACT ICON CONTACT ICON
   height: 1em;
   stroke-width: 0;
   stroke: #FFF8DC;
-  fill: #FFF8DC;
-  height:4%;
-  width:4%;
+  fill: #fffbcf;
+  height:60px;
+  width:60px;
   padding:12px;
   
 }
@@ -304,8 +303,15 @@ CONTACT ICON CONTACT ICON CONTACT ICON
   cursor: pointer;
 }
 
+.email-me{
+	text-decoration:none;
+	color:#fffbcf;
+}
 
-
+.email-me:hover{
+  color:#FCDC3B;
+  cursor: pointer;
+}
 
 
 
