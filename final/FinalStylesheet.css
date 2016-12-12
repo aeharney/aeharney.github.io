@@ -26,6 +26,18 @@ p{
 }
 
 /*
+HOME PAGE HOME PAGE HOME PAGE
+*/
+
+.home-page{
+	font-size: 300px;
+	font-family:Open Sans;
+	color:#fffbcf;
+	font-style: italic;
+	padding-left:40px;
+}
+
+/*
 ABOUT ME ABOUT ME ABOUT ME
 */
 
