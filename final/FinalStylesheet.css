@@ -132,7 +132,7 @@ ABOUT RESPONSIVE ABOUT RESPONSIVE
 */
 
 
-@media(max-width:1205px){
+@media screen (max-width:1205px){
 	
 	.AboutMePic, .p-about-me{
 		display:inline-block;
@@ -182,7 +182,6 @@ PROJECTS PROJECTS PROJECTS
 	padding-top:50px;
 
 }
-
 
 
 /*
@@ -265,6 +264,39 @@ li.dropdown {
     display: block;
 }
 
+/*
+	NAV BAR HAMBURGER NAV BAR HAMBURGER
+*/
+
+@media(max-width:599px){
+	li a{
+		
+	}
+}
+
+
+/*.hamburger{
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  stroke-width: 0;
+  stroke: black;
+  fill: black;
+  height:40px;
+  float:left;
+  padding-left:40px;
+  padding-top:5px;
+}
+}
+
+@media(min-width:601px){
+	.hamburger{
+		display: none;
+	}
+
+	/*.navbar{
+		display:inline-block;
+	}*/
 
 
 /*
