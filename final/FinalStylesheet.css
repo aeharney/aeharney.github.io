@@ -207,8 +207,7 @@ li{
     float: left;
     height: 40px;
     width: 140px;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-left: 4px;
 }
 
 .logo-link{
@@ -268,11 +267,13 @@ li.dropdown {
 	NAV BAR HAMBURGER NAV BAR HAMBURGER
 */
 
-@media(max-width:599px){
-	li a{
-		
+/*@media(max-width:599px){
+	li{
+		font-size:18px;
 	}
-}
+}*/
+
+
 
 
 /*.hamburger{
