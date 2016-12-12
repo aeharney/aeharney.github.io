@@ -21,7 +21,7 @@ p{
 }
 
 .logo{
-	height:80px;
+	height:120px;
 	padding:0px;
 }
 
@@ -135,7 +135,7 @@ RESUME RESUME RESUME RESUME RESUME
 */
 
 .resume-link{
-	font-size: 60px;
+	font-size: 40px;
 	position:fixed;
 	top:20%;
 	text-decoration:none;
@@ -145,7 +145,7 @@ RESUME RESUME RESUME RESUME RESUME
 	margin-right:auto;
 	text-align:center;
 	font-family:Open Sans;
-	padding-left:38px;
+	padding-left:20%;
 	padding-top:20px;
 
 }
@@ -199,7 +199,10 @@ li{
 }
 
 .logo-link{
-
+	margin-top:-24px;
+	margin-left:30px;
+	position:fixed;
+	z-index: 2;
 }
 
 li a{
@@ -302,7 +305,7 @@ figure {
   text-decoration: none;
 }
 
-figcaption {
+figcaption{
   margin-top: 15px;
   width:100%;
   margin-right:10px;
@@ -313,15 +316,6 @@ figcaption {
   line-height: 20px;
 }
 
-.pic-grid-image {
-  border: none;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  background: #ccc;
-  transition: transform .2s ease-in-out;
-}
-
 .pic-grid-a {
   display: inline;
   font-size: 13px;
@@ -329,9 +323,45 @@ figcaption {
   color: blue;
 }
 
-figure figcaption{
+figure figcaption .work-cap{
 	text-decoration: none;
 }
+
+
+/*
+WORK IMAGE GRID -- WORK IMAGE GRID
+*/
+.work-grid-a{
+	padding-top:-20px;
+	padding-left: 6%;
+	padding-right: 6%;
+	border: none;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	opacity:0.6;
+}
+
+.work-grid-a:hover{
+	opacity:1.0;
+	transform: scale(1.07);
+}
+
+.project-grid-image{
+
+	height:250px;
+	width:250px;
+}
+
+.work-grid-div{
+	padding-top:100px;
+	font-size: 0;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom:50px;
+	padding-left:16%;
+}
+
 
 /*
 CONTACT  CONTACT  CONTACT 
