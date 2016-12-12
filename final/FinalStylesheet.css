@@ -56,7 +56,7 @@ ABOUT ME ABOUT ME ABOUT ME
 	padding-top:100px;
 }
 
-.heading-about-me, .project-header, .heading-talk-me, .heading-check-me, .heading-resume-me{
+.project-header, .heading-talk-me, .heading-check-me, .heading-resume-me{
 	font-family:Open Sans;
 	font-size:60px;
 	font-weight:700;
@@ -101,7 +101,7 @@ ABOUT ME ABOUT ME ABOUT ME
 }
 
 .heading-about-me{
-	padding-top:170px;
+	padding-top:100px;
 	font-weight:700;
 }
 
@@ -132,20 +132,7 @@ ABOUT RESPONSIVE ABOUT RESPONSIVE
 */
 
 
-@media screen (max-width:1205px){
-	
-	.AboutMePic, .p-about-me{
-		display:inline-block;
-	}
 
-	.heading-about-me{
-	padding-top:50px;
-}
-
-	/*.AboutMePic{
-		float:left;
-	}*/
-}
 
 /*
 RESUME RESUME RESUME RESUME RESUME
@@ -270,8 +257,28 @@ li.dropdown {
 /*@media(max-width:599px){
 	li{
 		font-size:18px;
+		padding-left:1%;
 	}
 }*/
+
+
+@media (max-width: 1205px){
+	.AboutMePic{
+		display:inline-block;
+		clear:none;
+		padding-top:120px;
+	}
+
+	.article-about-me{
+		text-align:center;
+	}
+
+	.heading-about-me{
+	padding-top:20px;
+}
+
+}
+
 
 
 
