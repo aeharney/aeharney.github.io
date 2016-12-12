@@ -44,17 +44,17 @@ ABOUT ME ABOUT ME ABOUT ME
 	padding-top:100px;
 }
 
-.heading-about-me, .project-header, .heading-talk-me, .heading-check-me{
+.heading-about-me, .project-header, .heading-talk-me, .heading-check-me, .heading-resume-me{
 	font-family:Open Sans;
 	font-size:60px;
 	font-weight:700;
 	padding-bottom:10px;
 	padding-left:38px;
-	padding-top:100px;
+	padding-top:60px;
 }
 
 .heading-talk-me{
-	padding-top:100px;
+	padding-top:80px;
 	padding-left:38px;
 }
 
@@ -89,12 +89,17 @@ ABOUT ME ABOUT ME ABOUT ME
 }
 
 .heading-about-me{
-	padding-top:200px;
+	padding-top:170px;
 	font-weight:700;
 }
 
 .heading-check-me, .heading-talk-me{
-	padding-top:200px;
+	padding-top:130px;
+	padding-left:100px;
+}
+
+.heading-resume-me{
+	padding-left:100px;
 }
 
 .heading-check-me{
@@ -102,7 +107,7 @@ ABOUT ME ABOUT ME ABOUT ME
 }
 
 .p-contact{
-	padding-left:80px;
+	padding-left:140px;
 	padding-top:10px;
 	font-family:Open Sans;
 	font-size:25px;
@@ -135,18 +140,15 @@ RESUME RESUME RESUME RESUME RESUME
 */
 
 .resume-link{
-	font-size: 40px;
-	position:fixed;
-	top:20%;
-	text-decoration:none;
-	text-decoration: underline;
+
 	color:#fffbcf;
 	margin-left: auto;
 	margin-right:auto;
 	text-align:center;
 	font-family:Open Sans;
-	padding-left:20%;
-	padding-top:20px;
+	margin-top:480px;
+	font-size:30px;
+	text-decoration: underline;
 
 }
 
